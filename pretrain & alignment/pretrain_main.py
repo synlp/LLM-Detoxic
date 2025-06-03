@@ -1,4 +1,4 @@
-from model import LlamaForCausalLMTeacher
+from modeling import LlamaForCausalLMTeacher
 import torch
 from torch.utils.data import Dataset
 from dataclasses import dataclass, field
