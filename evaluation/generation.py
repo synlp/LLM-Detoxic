@@ -13,7 +13,7 @@ parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from model import LlamaForCausalLMTeacher, LlamaForCausalLMTarget
+from modeling import LlamaForCausalLMTeacher, LlamaForCausalLMTarget
 
 def set_seed(seed):
     random.seed(seed)
